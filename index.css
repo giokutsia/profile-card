@@ -1,0 +1,93 @@
+body {
+    width: 1080px;
+    height: 1080px;
+    background-color: #4D5646;
+    font-weight: 400;
+    font-family: 'PT Sans Caption';
+    
+}
+.container {
+    position: relative;
+    width: 691px;
+    height: 825px;
+    left: 50%;
+    top: 127px;
+    box-shadow: 0px 4px 13px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background: url(assets/bg-pic.png);
+    background-size: 120% 120%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.profile-picture {
+    position: absolute;
+    width: 305px;
+    height: 305px;
+    margin: 125px 193px; 
+    border-radius: 50%;
+    background: #F1EAEA;
+}
+.pic {
+    position: absolute;
+    width: 287px;
+    height: 287px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(assets/profile-pic.png) no-repeat;
+    z-index: 2;
+}
+.info {
+    position: absolute;
+    width: 692px;
+    height: 548px;
+    left: 0px;
+    text-align: center;
+    top: 277px;
+    z-index: 1;
+    background: #FFFFFF;
+    border-radius: 15px;
+   
+}
+.name {
+   
+    margin-top: 163px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+}
+.job {
+    font-style: normal;
+    
+    font-size: 36px;
+    line-height: 47px;
+    margin-top: -40px;
+}
+p {
+    width: 426px;
+    height: 93px;
+    margin-left: 141px;
+    font-style: normal;
+    
+    font-size: 24px;
+    line-height: 31.06px;
+}
+.social {
+    display: flex;
+    width: 215px;
+    height: 26px;
+    align-items: center;
+    margin-top: 72px;
+    margin-left: 253px;
+    justify-content: space-between;
+}
+.icon-div {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
