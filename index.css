@@ -26,6 +26,7 @@ body {
     margin: 125px 193px; 
     border-radius: 50%;
     background: #F1EAEA;
+    z-index: 2;
 }
 .pic {
     position: absolute;
